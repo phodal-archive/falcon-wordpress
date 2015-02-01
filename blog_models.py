@@ -1,6 +1,7 @@
 from peewee import *
+import config
 
-database = MySQLDatabase('MK_xunzhao', **{'user': 'root'})
+database = MySQLDatabase(config.db['name'], user=config.db['user'], passwd=config.db['password'])
 
 
 class UnknownField(object):
