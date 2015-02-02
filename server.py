@@ -1,5 +1,5 @@
 import falcon
-from post import PostsResource, AllPostsResource, CommentsResource, PostsCommentsResource
+from resources import PostsResource, AllPostsResource, CommentsResource, PostsCommentsResource
 from gevent import monkey
 from gevent.wsgi import WSGIServer
 
