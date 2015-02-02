@@ -1,7 +1,8 @@
 import falcon
-from resources import PostsResource, AllPostsResource, CommentsResource, PostsCommentsResource
 from gevent import monkey
 from gevent.wsgi import WSGIServer
+
+from api.resources import PostsResource, AllPostsResource, CommentsResource, PostsCommentsResource
 
 
 def main():
