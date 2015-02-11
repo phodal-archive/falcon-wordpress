@@ -1,5 +1,5 @@
 db = dict(
-    name='',
+    name='MK_xunzhao',
     user='root',
     password='',
 )

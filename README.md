@@ -9,7 +9,7 @@
 
 2.run server
     
-    gunicorn server:app
+    python server.py
 
 
 use peewee generate db model
